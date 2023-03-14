@@ -9,8 +9,8 @@
     </header>
     {% for post in posts %}
     <article>
-      <time>published: {{ post.published_date }}</time>
       <h2><a href="">{{ post.title}}</a></h2>
+      <time>{{ post.published_date }}</time>
       <p>{{ post.author }}</p>
       <p>{{ post.text}}</p>
     </article>
